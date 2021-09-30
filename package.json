@@ -1,0 +1,32 @@
+{
+  "name": "passsword-manager-docker-backend",
+  "version": "1.0.0",
+  "description": "Password Manager Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --legacy-watch ./src/index.js"
+  },
+  "keywords": [
+    "password",
+    "manager",
+    "nodejs"
+  ],
+  "author": "Schenier Lopez",
+  "license": "MIT",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.14.1",
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "he": "^1.2.0",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "socket.io": "^4.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

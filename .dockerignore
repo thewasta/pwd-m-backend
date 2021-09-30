@@ -1,0 +1,9 @@
+.env
+.idea/
+node_modules/
+yarn.lock
+package-lock.json
+Dockerfile
+.dockerignore
+yarn-error.log
+src/storage/logs/
