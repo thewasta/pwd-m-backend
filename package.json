@@ -1,6 +1,7 @@
 {
   "name": "passsword-manager-docker-backend",
-  "version": "1.0.0",
+  "version": "0.0.1",
+  "homepage": "https://github.com/users/thewasta/projects/3",
   "description": "Password Manager Backend",
   "main": "index.js",
   "scripts": {
@@ -11,6 +12,10 @@
     "manager",
     "nodejs"
   ],
+  "repository": {
+    "url": "https://github.com/thewasta/pwd-m-backend",
+    "type": "git"
+  },
   "author": "Schenier Lopez",
   "license": "MIT",
   "dependencies": {
