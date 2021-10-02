@@ -5,7 +5,8 @@
   "description": "Password Manager Backend",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --legacy-watch ./src/index.js"
+    "start": "node ./src/index.js",
+    "dev": "nodemon --legacy-watch ./src/index.js"
   },
   "keywords": [
     "password",
